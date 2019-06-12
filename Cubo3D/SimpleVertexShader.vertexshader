@@ -1,0 +1,20 @@
+#version 330 core
+
+// Input vertex data, diferentes para todas as execuções deste shader
+layout(location = 0) in vec3 vertexPosition_modelspace;
+layout(location = 1) in vec2 vertexUV;
+
+// Dados de Saida ; Serão interpolados para cada fragmento
+out vec2 UV;
+
+// Valores que permanecem constantes para toda a malha
+uniform mat4 MVP;
+
+void main(){	
+
+	// Posição de saida do vertex, no espaço de grampo: MVP * position
+	gl_Position =  MVP * vec4(vertexPosition_modelspace,1);
+
+	// UV dos vertex. Sem espaço especial para este aqui
+	UV = vertexUV;
+}

@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{01AEDF59-D521-37E3-8352-5B896CD5ED65}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials" "-BC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits" --check-stamp-file "C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials" "-BC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits" --check-stamp-file "C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials" "-BC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits" --check-stamp-file "C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials" "-BC:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits" --check-stamp-file "C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\src\glfw_config.h.in;C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\ZERO_CHECK.vcxproj">
+      <Project>{9DA8CC73-59BA-3ADA-A675-261700A81E7E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{0D19E206-8A72-3897-9C1C-CD5A999172CB}</Project>
+      <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{58DC82B2-DB4C-3F27-A59C-BA312FB91A7B}</Project>
+      <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{B447D829-A137-3310-8D71-A89D1E1389A3}</Project>
+      <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{1E90CC4F-333D-39CE-B8C7-DF13C6061FDE}</Project>
+      <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{7574E313-2032-393E-A039-E123D02CF2DC}</Project>
+      <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{623072A9-2D29-3145-A21E-92C710539080}</Project>
+      <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{11DE15DC-FAAE-3C13-AD8E-FC95A5E4C0D2}</Project>
+      <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{4C0A96C8-2407-3E1C-9FFB-69C0059EC47B}</Project>
+      <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{388C5AE1-3924-33C7-9C42-6C8DED85C4C3}</Project>
+      <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{36CBA4B9-EAD4-333C-8E9F-95540B2D5DB2}</Project>
+      <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{4D3655DC-F20B-37F8-8B88-99BA8C03CF99}</Project>
+      <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{B9408DFF-C8F1-33C5-B68E-901AEE3014AE}</Project>
+      <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{4C65E934-81BF-37FF-9D4D-CD7BDF8A9F2D}</Project>
+      <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{DD427E31-F33E-3C68-BD23-1422DC3D8695}</Project>
+      <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{AE590D84-1571-3AC4-BA25-0E0B3F1C54BA}</Project>
+      <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{297C123E-ABDE-3E69-B7E3-AB42C25657D7}</Project>
+      <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{507D94C1-CDFE-38B2-84DA-BB54618A4054}</Project>
+      <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{370EB079-3CDA-3C23-8815-1C2CF4BB84F7}</Project>
+      <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{8BF32D22-BDF4-3A37-AE8E-6181A0AAE0B1}</Project>
+      <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{982680F1-0B2B-304A-BCB0-BBDB4CC63170}</Project>
+      <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{A32F4F9B-3751-3CAA-BB44-EE70BD920AAB}</Project>
+      <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{5181A559-26AC-36B5-B173-CD6BF34DD4C9}</Project>
+      <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{DCADD48E-7675-3387-A32F-3B503D343D16}</Project>
+      <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{108CE384-BCF1-3D3C-8DCE-1C2D551FD0F4}</Project>
+      <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

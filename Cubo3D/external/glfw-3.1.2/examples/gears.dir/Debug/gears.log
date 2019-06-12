@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials/external/glfw-3.1.2/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/JORGE RODRIGO/Projects/OpenGLTutorials-build-Visual2017-64bits/external/glfw-3.1.2/examples/CMakeFiles/generate.stamp is up-to-date.
+  gears.c
+  gears.vcxproj -> C:\Users\JORGE RODRIGO\Projects\OpenGLTutorials-build-Visual2017-64bits\external\glfw-3.1.2\examples\Debug\gears.exe
