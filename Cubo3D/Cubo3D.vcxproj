@@ -91,12 +91,20 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\jorge\Downloads\OpenGL Instalation\external\glfw-3.1.2\include;C:\Users\jorge\Downloads\OpenGL Instalation\external\glm-0.9.7.1\;C:\Users\jorge\Downloads\OpenGL Instalation\external\glew-2.1.0\include;C:\Users\jorge\Downloads\OpenGL Instalation\external\AntTweakBar-1.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glfw-3.1.2\include;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glm-0.9.7.1\;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glew-2.1.0\include;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\AntTweakBar-1.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> origin/master
       <PreprocessorDefinitions>STATIC_GLEW;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;external\glfw-3.1.2\src\Release\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;oleaut32.lib;ole32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\jorge\Downloads\OpenGL Instalation\external\glew-2.1.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glew-2.1.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> origin/master
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -121,14 +129,22 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\jorge\Downloads\OpenGL Instalation\external\glew-2.1.0\include;C:\Users\jorge\Downloads\OpenGL Instalation\external\glfw-3.1.2\include;C:\Users\jorge\Downloads\OpenGL Instalation\external\glm-0.9.7.1\;C:\Users\jorge\Downloads\OpenGL Instalation\external\AntTweakBar-1.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glew-2.1.0\include;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glfw-3.1.2\include;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glm-0.9.7.1\;C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\AntTweakBar-1.16\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> origin/master
       <PreprocessorDefinitions>STATIC_GLEW;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>opengl32.lib;glu32.lib;glew32.lib;external\glfw-3.1.2\src\Release\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;oleaut32.lib;ole32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\jorge\Downloads\OpenGL Instalation\external\glew-2.1.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>C:\Users\JORGE RODRIGO\Downloads\OpenGL Instalation\external\glew-2.1.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> origin/master
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.17763.0
+<<<<<<< HEAD
 Debug|x64|C:\Users\jorge\Documents\2019.1\Computacao Grafica\Trabalhos\Cubo3D\|
+=======
+Debug|x64|C:\Users\JORGE RODRIGO\Documents\Mestrado\2019.1\Computacao Grafica\Trabalhos\Cubo3D\|
+>>>>>>> origin/master
