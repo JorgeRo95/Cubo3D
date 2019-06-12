@@ -1,0 +1,17 @@
+#version 330 core
+
+// Valores interpolados dos vertex shaders, U e V são referentes as coordenadas
+in vec2 UV;
+
+// Dados de Saida
+out vec3 color;
+
+// Valores que permanecem constantes para toda a malha
+uniform sampler2D myTextureSampler;
+
+void main(){
+
+	// Cor de Saida = cor da textura no UV especificado
+	color = texture( myTextureSampler, UV ).rgb;
+
+}
