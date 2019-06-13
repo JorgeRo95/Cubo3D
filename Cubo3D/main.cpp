@@ -196,7 +196,8 @@ void setProjection(mat4 &MVP, int type) {
 		obliqua[0][2] = (float) -1 * (1 / tan(60));
 		obliqua[1][2] = (float) -1 * (1 / tan(90));
 		//memcpy(glm::value_ptr(obliqua), mat, sizeof(mat));
-		Projection = obliqua * Projection;
+		transpose(obliqua);
+		Projection = Projection * obliqua;
 
 	}
 	// Camera matrix
