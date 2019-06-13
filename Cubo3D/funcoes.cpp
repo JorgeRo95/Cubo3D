@@ -55,19 +55,20 @@ GLuint loadBMP_custom(const char * imagepath) {
 	// "Liga" a nova textura criada: todas as futuras funções de textura irão modificar essa textura
 	glBindTexture(GL_TEXTURE_2D, textureID);
 
-	//Damos a imagem para o OpenGL 
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, data);
-
-	delete[] data; // Liberando a memória
-
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
 	//Quando estiver aumentando a imagem (Não o maior mipmap disponivel), usar o filtro linear
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	//Quando estiver reduzindo a imagem, usar uma mistura linear para dois mimaps, cada um filtrado linearmente também
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+
+
+	//Damos a imagem para o OpenGL 
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, data);
 	//Gerar mipmaps, a proposito (esse comentário do autor do tutorial foi o sarcasmo ao qual ele não conseguiu resistir)
 	glGenerateMipmap(GL_TEXTURE_2D);
+	
+	delete[] data; // Liberando a memória
 
 	return textureID;
 }
