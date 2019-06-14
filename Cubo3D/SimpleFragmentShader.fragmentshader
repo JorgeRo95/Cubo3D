@@ -1,6 +1,10 @@
 #version 330 core
 
 // Valores interpolados dos vertex shaders, U e V são referentes as coordenadas
+<<<<<<< HEAD
+in vec3 fragmentColor;
+=======
+>>>>>>> origin/master
 in vec2 UV;
 
 // Dados de Saida

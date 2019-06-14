@@ -1,4 +1,5 @@
 ﻿  funcoes.cpp
+<<<<<<< HEAD
   main.cpp
 c:\users\jorge rodrigo\documents\mestrado\2019.1\computacao grafica\trabalhos\cubo3d\cubo3d\main.cpp(175): warning C4244: '=': conversão de 'double' para 'T', possível perda de dados
           with
@@ -11,4 +12,12 @@ c:\users\jorge rodrigo\documents\mestrado\2019.1\computacao grafica\trabalhos\cu
               T=float
           ]
   Gerando Código...
+=======
+<<<<<<< HEAD
+  main.cpp
+  Gerando Código...
+  Cubo3D.vcxproj -> C:\Users\jorge\Documents\2019.1\Computacao Grafica\Trabalhos\Cubo3D\x64\Debug\Cubo3D.exe
+=======
+>>>>>>> c7fa23ff8e62195391b171112958637c53dc0e77
   Cubo3D.vcxproj -> C:\Users\JORGE RODRIGO\Documents\Mestrado\2019.1\Computacao Grafica\Trabalhos\Cubo3D\x64\Debug\Cubo3D.exe
+>>>>>>> origin/master

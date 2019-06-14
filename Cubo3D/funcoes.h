@@ -1,20 +1,35 @@
 #pragma once
+<<<<<<< HEAD
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+
+=======
 
 #define _USE_MATH_DEFINES
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <cmath>
+>>>>>>> origin/master
 // Include GLEW
 #include <GL/glew.h>
 
 // Include GLFW
 #include <GLFW/glfw3.h>
+<<<<<<< HEAD
+=======
 #include <GL/GLU.h>
+>>>>>>> origin/master
 
 // Include GLM
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+<<<<<<< HEAD
+
+#include "shader.h"
+
+=======
 #include <glm/gtc/type_ptr.hpp>
 
 #include "shader.h"
@@ -22,6 +37,7 @@
 using namespace glm;
 
 
+>>>>>>> origin/master
 GLuint loadBMP_custom(const char * imagepath);
 
 static const GLfloat g_uv_buffer_data[] = {

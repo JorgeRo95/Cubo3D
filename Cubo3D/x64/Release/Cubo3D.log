@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+﻿  Cubo3D.vcxproj -> C:\Users\jorge\Documents\2019.1\Computacao Grafica\Trabalhos\Cubo3D\x64\Release\Cubo3D.exe
+=======
 ﻿  funcoes.cpp
   Gerando código
   2 of 268 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
@@ -5,3 +8,4 @@
     0 functions had inline decision re-evaluated but remain unchanged
   Finalizada a geração de código
   Cubo3D.vcxproj -> C:\Users\JORGE RODRIGO\Documents\Mestrado\2019.1\Computacao Grafica\Trabalhos\Cubo3D\x64\Release\Cubo3D.exe
+>>>>>>> origin/master
